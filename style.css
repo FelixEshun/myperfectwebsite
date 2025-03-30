@@ -1,0 +1,29 @@
+body {
+    font-family: 'inter', sans-serif;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: gray;
+}
+
+.nav-link:hover {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+.nav-item .btn{
+    background-color: #d9d9d9; 
+    color: black; 
+    font-size: small;
+    padding: 10px 20px;
+    border-radius: 0%;
+}
+
+.dropdown-menu {
+    color:  #0A2540;
+}
