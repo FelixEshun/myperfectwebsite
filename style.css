@@ -20,3 +20,21 @@ body {
     text-underline-offset: 0.5em;
 }
 
+.banner-section {
+    background-color: #696868;
+    height: 30vh;
+    display: flex;
+}
+
+.banner-section h2 {
+    color: orange;
+
+}
+
+.lead {
+    color: whitesmoke;
+}
+
+#home-banner {
+    padding: 0% 10%;
+}
