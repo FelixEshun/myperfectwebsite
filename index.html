@@ -182,14 +182,13 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <!--Contact Section-->
-    <section class="contact-main" id="contact">
+    <section class="contact-main mb-4" id="contact">
         <div class="container">
             <div class="row mt-5">
-                <div class="col-lg-4 col-md-4 col-sm-6 text-align-start">
+                <div class="col-lg-5 col-md-4 col-sm-6 text-align-start">
                     <h1 class="fw-bold">Contact Us</h1><br>
                     <p>
                         <a href="tel:+919876543210" class="text-decoration-none">(403) 870-000</a><br>
@@ -198,27 +197,42 @@
                     <p>#10 - 303 3rd Ave South Lethbridge, T1J 4J8</p>
                     <p class="justify-content-start">Follow us on:</p>
                 </div>
-
                 <div class="contact-form p-3 col-lg-6 col-md-8 col-sm-6">
                     <form>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div class="row mb-3">
+                            <div class="col">
+                              <label for="exampleInputEmail1" class="form-label">First Name</label>
+                              <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+                            </div>
+                            <div class="col">
+                                <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                              </div>
+                              <div class="col">
+                                <label for="exampleInputPassword1" class="form-label">Phone</label>
+                                <input type="phone" class="form-control" id="exampleInputPassword1">
+                              </div>
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                            <label for="floatingTextarea2">Leave us a message</label>
+                            <textarea class="form-control" placeholder="Your comments here" id="floatingTextarea2" style="height: 100px" required></textarea>
                         </div>
-                        <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        <div>
+                            <button type="Submit" class="btn form-btn">Submit</button>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--Footer Section-->
       
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

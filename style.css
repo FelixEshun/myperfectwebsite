@@ -99,10 +99,27 @@ body {
     color: #696868;
     border-radius: 15px;
     text-align: start;
+    padding: 20px 20px;
+    box-shadow: 5px 5px 10px #797878;
   }
 
   .contact-main p{
     font-size: large;
+  }
+
+  .form-btn {
+    color: #696868;
+    border-radius: 0;
+    padding: 5px 15px;
+    font-size: 1em;
+    border: 2px solid orange;
+    border-radius: 20px;
+  }
+
+  .form-btn:hover{
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
   }
 
   /*********footer**********/
