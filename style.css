@@ -44,6 +44,10 @@ body {
     text-align: center;
 }
 
+#main {
+  scroll-margin-top: 5em;
+}
+
 .main h3, p, li {
     color: #696868;
 }
@@ -90,5 +94,15 @@ body {
     border: 2px solid orange;
   }
 
+  .contact-form {
+    background-color: #D9D9D9;
+    color: #696868;
+    border-radius: 15px;
+    text-align: start;
+  }
+
+  .contact-main p{
+    font-size: large;
+  }
 
   /*********footer**********/
