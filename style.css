@@ -127,3 +127,15 @@ body {
     text-align: center;
   }
 
+  .imageslide-section {
+    background-color: #3b3b3b;
+    color: whitesmoke;
+    height: 620px;
+    text-align: center;
+  }
+
+  .imageslide-section img {
+    height:500px;
+    object-fit: contain;
+    border: 2px solid rgb(198, 194, 194);
+  }
