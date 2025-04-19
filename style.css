@@ -40,6 +40,7 @@ body {
 }
 
 .main {
+  background-color: whitesmoke;
     padding: 3% 10%;
     text-align: center;
 }
@@ -57,7 +58,7 @@ body {
   .card {
     background-color: #D9D9D9;
     color: #696868;
-    padding: 3em 0;
+    padding: 1em 0;
     border: 2px solid orange;
     border-radius: 4em 0;
     box-shadow: 5px 5px 10px #797878;
@@ -98,6 +99,10 @@ body {
     text-align: start;
     padding: 20px 20px;
     box-shadow: 5px 5px 10px #797878;
+  }
+  
+  .contyact-main {
+    background-color: whitesmoke;
   }
 
   .contact-main p{
